@@ -1,7 +1,7 @@
-h1 button {
-    font-size:16;
-    padding:2.5;
 
+body {
+    background:linear-gradient(to bottom, #ffffff, rgb(150,100,100));
+    background-size:cover;
 }
 #mnbox {
     position:absolute;
