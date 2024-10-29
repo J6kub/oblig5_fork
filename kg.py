@@ -12,8 +12,11 @@ app.secret_key = 'BAD_SECRET_KEY' # nødvendig for session
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('home.html')
 
+@app.route('/oppgave')
+def oppgave():
+    return render_template('oppgave.html')
 @app.route('/barnehager')
 def barnehager():
     information = select_alle_barnehager()

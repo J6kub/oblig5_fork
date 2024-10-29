@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}?v=1.0">
+    </head>
+    <body>
+        <div id="mnbox">
+            <h1>Barnehage søknad!</h1>
+            <div id="flexbox">
+                <button onclick='location.href="/behandle"'>Send søknad</button>
+                <button onclick='location.href="/barnehager"'>Barnehager</button>
+                <button onclick='location.href="/oppgave"'>Oppgave tekst</button>
+                <button onclick='location.href="/commit"'>Admin Commit</button>
+            </div>
+        </div>
+    </body>
+</html>
